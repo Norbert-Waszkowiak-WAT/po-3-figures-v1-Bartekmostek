@@ -12,7 +12,7 @@ private:
     Point d;
 public:
     Quadrilateral(Point a, Point b, Point c, Point d);
-    Quadrilateral(Quadrilateral &other);
+    Quadrilateral(const Quadrilateral &other);
     bool equals(Quadrilateral &other);
     string toString();
     void flip();
